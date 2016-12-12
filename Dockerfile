@@ -8,4 +8,4 @@ ENV BOTO_PATH /etc/gsutil/auth/.boto
 
 VOLUME /etc/gsutil/auth
 
-CMD ["gsutil","--version"]
+ENTRYPOINT ["gsutil"]
